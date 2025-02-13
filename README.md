@@ -35,7 +35,8 @@ MPGenius is a machine learning model that predicts a vehicle's **miles per gallo
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/MPGenius.git
 cd MPGenius
-## 2. Install Dependencies
+```
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -66,6 +67,7 @@ Input the origin (1 for US, 2 for Europe, 3 for Asia): 1
  Predicted MPG: 18.57
  
 ```
+### 🚀 Mean Absolute Erorr(MAE): 2.78 MPG
 
 ##  Sample Predictions
 | Car | Predicted MPG | Actual MPG |
@@ -74,7 +76,7 @@ Input the origin (1 for US, 2 for Europe, 3 for Asia): 1
 | 1996 Chevrolet Impala SS (V8) | 17.6 MPG | ~17 MPG |
 | 2008 Honda Civic Si (I4) | 29.2 MPG | ~31 MPG |
 
-🚀 Mean Absolute Erorr(MAE): 2.78 MPG
+
 
 ---
 
