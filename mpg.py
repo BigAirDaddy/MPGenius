@@ -17,9 +17,10 @@ weight = input('Input the weight of the vehicle: ')
 acceleration = input('Input the 0-60 mph time: ')
 model_year = input('Input the model year: ')
 origin = input('Input the origin of the vehicle(1 for US 2 for Europe 3 for Asia): ')
+FI = input('Is the car turbo or supercharged?(1 for yes 0 for no): ')
 
-sample_car = np.array([[cylinders,displacement,horsepower,weight,acceleration,model_year,origin]])
-feature_names = ["Cylinders", "Displacement", "Horsepower", "Weight", "Acceleration", "Model Year", "Origin"]
+sample_car = np.array([[cylinders,displacement,horsepower,weight,acceleration,model_year,origin,FI]])
+feature_names = ["Cylinders", "Displacement", "Horsepower", "Weight", "Acceleration", "Model Year", "Origin","FI"]
 sample_car_df = pd.DataFrame(sample_car, columns=feature_names)
 
 sample_car_scaled = scaler_X.transform(sample_car_df)
