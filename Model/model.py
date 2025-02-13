@@ -69,8 +69,9 @@ lr_prediction_scaled = lr_model.predict(sample_car_scaled)[0]
 lr_prediction = scaler_y.inverse_transform(lr_prediction_scaled.reshape(-1, 1))[0][0]
 
 
-print(f"📡 Neural Network Prediction: {nn_prediction:.2f} MPG")
-print(f"✅ Linear Regression Prediction: {lr_prediction:.2f} MPG")
+print(f" Neural Network Prediction: {nn_prediction:.2f} MPG")
+print(f" Linear Regression Prediction: {lr_prediction:.2f} MPG")
+print('Samples True MPG: 18')
 
 
 joblib.dump(scaler, "Model/scaler_X.pkl")  
