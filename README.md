@@ -74,7 +74,7 @@ Input the origin (1 for US, 2 for Europe, 3 for Asia): 1
 | 1996 Chevrolet Impala SS (V8) | 17.6 MPG | ~17 MPG |
 | 2008 Honda Civic Si (I4) | 29.2 MPG | ~31 MPG |
 
-🚀 More training data improves accuracy over time!
+🚀 Mean Absolute Erorr(MAE): 2.78 MPG
 
 ---
 
