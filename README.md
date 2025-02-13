@@ -50,7 +50,7 @@ python model.py
 python mpg.py
 ```
 
-## 📥 Example Input
+## Example Input
 ```less
 Input the number of cylinders the vehicle has: 6  
 Input the displacement (cu in): 250  
@@ -63,11 +63,11 @@ Input the origin (1 for US, 2 for Europe, 3 for Asia): 1
 
 ## Example Output
 ```objectivec
-📡 Predicted MPG: 18.57
- Linear Regression Prediction: 19.2 MPG
+ Predicted MPG: 18.57
+ 
 ```
 
-## 📈 Sample Predictions
+##  Sample Predictions
 | Car | Predicted MPG | Actual MPG |
 |-------------------------------|---------------|-------------|
 | 1971 Chevy Nova 350 (V8) | 14.9 MPG | ~15 MPG |
