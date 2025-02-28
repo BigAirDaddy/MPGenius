@@ -2,3 +2,4 @@ tensorflow
 numpy
 joblib
 scikit-learn
+pandas
